@@ -1,0 +1,1 @@
+A tracking website powered by React and Firebase
