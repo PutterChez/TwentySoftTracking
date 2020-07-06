@@ -6,12 +6,14 @@ export default function Menu() {
       {/* Brand Logo */}
       <a href="index3.html" className="brand-link">
         <img
-          src="dist/img/AdminLTELogo.png"
-          alt="AdminLTE Logo"
+          src="dist/img/TrackingLogo.png"
+          alt="TwentySoftTracking Logo"
           className="brand-image img-circle elevation-3"
           style={{ opacity: "0.8" }}
         />
-        <span className="brand-text font-weight-light">AdminLTE 3</span>
+        <span className="brand-text font-weight-light">
+          TwentySoft Tracking
+        </span>
       </a>
       {/* Sidebar */}
       <div className="sidebar">
@@ -26,7 +28,7 @@ export default function Menu() {
           </div>
           <div className="info">
             <a href="#" className="d-block">
-              Alexander Pierce
+              Admin Username
             </a>
           </div>
         </div>
@@ -41,10 +43,10 @@ export default function Menu() {
             {/* Add icons to the links using the .nav-icon class
          with font-awesome or any other icon font library */}
             <li className="nav-item has-treeview menu-open">
-              <a href="#" className="nav-link active">
+              <a href="#" className="nav-link">
                 <i className="nav-icon fas fa-tachometer-alt" />
                 <p>
-                  Dashboard
+                  Tracking
                   <i className="right fas fa-angle-left" />
                 </p>
               </a>
@@ -52,24 +54,25 @@ export default function Menu() {
                 <li className="nav-item">
                   <a href="./index.html" className="nav-link">
                     <i className="far fa-circle nav-icon" />
-                    <p>Dashboard v1</p>
+                    <p>Branch 1</p>
                   </a>
                 </li>
                 <li className="nav-item">
                   <a href="./index2.html" className="nav-link">
                     <i className="far fa-circle nav-icon" />
-                    <p>Dashboard v2</p>
+                    <p>Branch 2</p>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="./index3.html" className="nav-link active">
+                  <a href="./index3.html" className="nav-link">
                     <i className="far fa-circle nav-icon" />
-                    <p>Dashboard v3</p>
+                    <p>Branch 3</p>
                   </a>
                 </li>
               </ul>
             </li>
-            <li className="nav-item">
+
+            {/* <li className="nav-item">
               <a href="pages/widgets.html" className="nav-link">
                 <i className="nav-icon fas fa-th" />
                 <p>
@@ -140,9 +143,10 @@ export default function Menu() {
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> */}
+
             <li className="nav-item has-treeview">
-              <a href="#" className="nav-link">
+              <a href="#" className="nav-link active">
                 <i className="nav-icon fas fa-chart-pie" />
                 <p>
                   Charts
@@ -151,26 +155,27 @@ export default function Menu() {
               </a>
               <ul className="nav nav-treeview">
                 <li className="nav-item">
-                  <a href="pages/charts/chartjs.html" className="nav-link">
+                  <a href="index1.html" className="nav-link active">
                     <i className="far fa-circle nav-icon" />
-                    <p>ChartJS</p>
+                    <p>Overall Performance</p>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="pages/charts/flot.html" className="nav-link">
+                  <a href="index2.html" className="nav-link">
                     <i className="far fa-circle nav-icon" />
-                    <p>Flot</p>
+                    <p>Branch Performance</p>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="pages/charts/inline.html" className="nav-link">
+                  <a href="index3.html" className="nav-link">
                     <i className="far fa-circle nav-icon" />
-                    <p>Inline</p>
+                    <p>Delivery Performance</p>
                   </a>
                 </li>
               </ul>
             </li>
-            <li className="nav-item has-treeview">
+
+            {/* <li className="nav-item has-treeview">
               <a href="#" className="nav-link">
                 <i className="nav-icon fas fa-tree" />
                 <p>
@@ -591,7 +596,7 @@ export default function Menu() {
                 <i className="nav-icon far fa-circle text-info" />
                 <p>Informational</p>
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
         {/* /.sidebar-menu */}
